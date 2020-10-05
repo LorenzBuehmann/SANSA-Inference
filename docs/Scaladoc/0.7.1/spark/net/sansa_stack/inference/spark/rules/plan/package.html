@@ -1,0 +1,186 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>plan - Inference API - Spark 0.7.1 API - net.sansa_stack.inference.spark.rules.plan</title>
+          <meta name="description" content="plan - Inference API - Spark 0.7.1 API - net.sansa stack.inference.spark.rules.plan" />
+          <meta name="keywords" content="plan Inference API Spark 0.7.1 API net.sansa stack.inference.spark.rules.plan" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../../../../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../../../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../../../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../../../index.html';
+            var hash = 'net.sansa_stack.inference.spark.rules.plan.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img alt="Package" src="../../../../../../lib/package_big.png" />
+        <p id="owner"><a href="../../../../../package.html" class="extype" name="net">net</a>.<a href="../../../../package.html" class="extype" name="net.sansa_stack">sansa_stack</a>.<a href="../../../package.html" class="extype" name="net.sansa_stack.inference">inference</a>.<a href="../../package.html" class="extype" name="net.sansa_stack.inference.spark">spark</a>.<a href="../package.html" class="extype" name="net.sansa_stack.inference.spark.rules">rules</a></p>
+        <h1>plan</h1><span class="permalink">
+      <a href="../../../../../../index.html#net.sansa_stack.inference.spark.rules.plan.package" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">plan</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="net.sansa_stack.inference.spark.rules.plan.Join" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="JoinextendsProductwithSerializable"></a>
+      <a id="Join:Join"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Join.html"><span class="name">Join</span></a><span class="params">(<span name="tp1">tp1: <span class="extype" name="org.apache.jena.graph.Triple">Triple</span></span>, <span name="tp2">tp2: <span class="extype" name="org.apache.jena.graph.Triple">Triple</span></span>, <span name="joinVar">joinVar: <span class="extype" name="org.apache.jena.graph.Node">Node</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#net.sansa_stack.inference.spark.rules.plan.package@JoinextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A join between two triple patterns.</p>
+    </li><li name="net.sansa_stack.inference.spark.rules.plan.Plan" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PlanextendsProductwithSerializable"></a>
+      <a id="Plan:Plan"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Plan.html"><span class="name">Plan</span></a><span class="params">(<span name="triplePatterns">triplePatterns: <span class="extype" name="scala.Predef.Set">Set</span>[<span class="extype" name="org.apache.jena.graph.Triple">Triple</span>]</span>, <span name="target">target: <span class="extype" name="org.apache.jena.graph.Triple">Triple</span></span>, <span name="joins">joins: <span class="extype" name="scala.collection.mutable.Set">Set</span>[<a href="Join.html" class="extype" name="net.sansa_stack.inference.spark.rules.plan.Join">Join</a>]</span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#net.sansa_stack.inference.spark.rules.plan.package@PlanextendsProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">An execution plan to process a single rule.</p>
+    </li><li name="net.sansa_stack.inference.spark.rules.plan.PlanExecutor" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="PlanExecutor[Rdf&lt;:net.sansa_stack.inference.data.RDF,D,N&lt;:Rdf#Node,T&lt;:Rdf#Triple,G&lt;:net.sansa_stack.inference.spark.data.model.AbstractRDFGraphSpark[Rdf,D,G]]extendsAnyRef"></a>
+      <a id="PlanExecutor[Rdf&lt;:RDF,D,N&lt;:plan.PlanExecutor.Rdf.Node,T&lt;:plan.PlanExecutor.Rdf.Triple,G&lt;:AbstractRDFGraphSpark[Rdf,D,G]]:PlanExecutor[Rdf,D,N,T,G]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">abstract </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="PlanExecutor.html"><span class="name">PlanExecutor</span></a><span class="tparams">[<span name="Rdf">Rdf &lt;: <span class="extype" name="net.sansa_stack.inference.data.RDF">RDF</span></span>, <span name="D">D</span>, <span name="N">N &lt;: <span class="extype" name="net.sansa_stack.inference.data.RDF.Node">plan.PlanExecutor.Rdf.Node</span></span>, <span name="T">T &lt;: <span class="extype" name="net.sansa_stack.inference.data.RDF.Triple">plan.PlanExecutor.Rdf.Triple</span></span>, <span name="G">G &lt;: <a href="../../data/model/AbstractRDFGraphSpark.html" class="extype" name="net.sansa_stack.inference.spark.data.model.AbstractRDFGraphSpark">AbstractRDFGraphSpark</a>[<span class="extype" name="net.sansa_stack.inference.spark.rules.plan.PlanExecutor.Rdf">Rdf</span>, <span class="extype" name="net.sansa_stack.inference.spark.rules.plan.PlanExecutor.D">D</span>, <span class="extype" name="net.sansa_stack.inference.spark.rules.plan.PlanExecutor.G">G</span>]</span>]</span><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#net.sansa_stack.inference.spark.rules.plan.package@PlanExecutor[Rdf&lt;:net.sansa_stack.inference.data.RDF,D,N&lt;:Rdf#Node,T&lt;:Rdf#Triple,G&lt;:net.sansa_stack.inference.spark.data.model.AbstractRDFGraphSpark[Rdf,D,G]]extendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">An executor for a rule execution plan.</p>
+    </li><li name="net.sansa_stack.inference.spark.rules.plan.PlanExecutorNative" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PlanExecutorNativeextendsPlanExecutor[net.sansa_stack.inference.data.Jena,org.apache.spark.rdd.RDD[org.apache.jena.graph.Triple],org.apache.jena.graph.Node,org.apache.jena.graph.Triple,net.sansa_stack.inference.spark.data.model.RDFGraphNative]withLogging"></a>
+      <a id="PlanExecutorNative:PlanExecutorNative"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="PlanExecutorNative.html"><span class="name">PlanExecutorNative</span></a><span class="result"> extends <a href="PlanExecutor.html" class="extype" name="net.sansa_stack.inference.spark.rules.plan.PlanExecutor">PlanExecutor</a>[<span class="extype" name="net.sansa_stack.inference.data.Jena">Jena</span>, <span class="extype" name="org.apache.spark.rdd.RDD">RDD</span>[<span class="extype" name="org.apache.jena.graph.Triple">Triple</span>], <span class="extype" name="org.apache.jena.graph.Node">Node</span>, <span class="extype" name="org.apache.jena.graph.Triple">Triple</span>, <a href="../../data/model/RDFGraphNative.html" class="extype" name="net.sansa_stack.inference.spark.data.model.RDFGraphNative">RDFGraphNative</a>] with <span class="extype" name="net.sansa_stack.inference.utils.Logging">Logging</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#net.sansa_stack.inference.spark.rules.plan.package@PlanExecutorNativeextendsPlanExecutor[net.sansa_stack.inference.data.Jena,org.apache.spark.rdd.RDD[org.apache.jena.graph.Triple],org.apache.jena.graph.Node,org.apache.jena.graph.Triple,net.sansa_stack.inference.spark.data.model.RDFGraphNative]withLogging" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">An executor that works on the the native Scala data structures and uses Spark joins, filters etc.</p>
+    </li><li name="net.sansa_stack.inference.spark.rules.plan.SQLQuery" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="SQLQueryextendsAnyRef"></a>
+      <a id="SQLQuery:SQLQuery"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="SQLQuery.html"><span class="name">SQLQuery</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#net.sansa_stack.inference.spark.rules.plan.package@SQLQueryextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt"></p>
+    </li></ol>
+            </div>
+
+        
+
+        
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>Inference API - Spark 0.7.1 API</title>
+          <meta name="description" content="Inference API - Spark 0.7.1 API" />
+          <meta name="keywords" content="Inference API Spark 0.7.1 API" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../lib/ref-index.css" media="screen" type="text/css" rel="stylesheet" />
+      <script type="text/javascript" src="../lib/jquery.js"></script>
+    
+        </head>
+        <body><div class="entry">
+      <div class="name">TERMINOLOGICAL</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/rules/RuleEntailmentType$.html" class="extype" name="net.sansa_stack.inference.spark.rules.RuleEntailmentType">RuleEntailmentType</a> </div>
+    </div><div class="entry">
+      <div class="name">TransitiveReasoner</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/forwardchaining/axioms/package.html" class="extype" name="net.sansa_stack.inference.spark.forwardchaining.axioms">axioms</a> <a href="../net/sansa_stack/inference/spark/forwardchaining/triples/package.html" class="extype" name="net.sansa_stack.inference.spark.forwardchaining.triples">triples</a> </div>
+    </div><div class="entry">
+      <div class="name">TripleSchema</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/backwardchaining/package.html" class="extype" name="net.sansa_stack.inference.spark.backwardchaining">backwardchaining</a> </div>
+    </div><div class="entry">
+      <div class="name">TripleUtils</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/data/model/package.html" class="extype" name="net.sansa_stack.inference.spark.data.model">model</a> </div>
+    </div><div class="entry">
+      <div class="name">TypeComputor</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/abstraction/package.html" class="extype" name="net.sansa_stack.inference.spark.abstraction">abstraction</a> </div>
+    </div><div class="entry">
+      <div class="name">TypeComputorDefault</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/abstraction/package.html" class="extype" name="net.sansa_stack.inference.spark.abstraction">abstraction</a> </div>
+    </div><div class="entry">
+      <div class="name">table</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/rules/plan/Plan.html" class="extype" name="net.sansa_stack.inference.spark.rules.plan.Plan">Plan</a> </div>
+    </div><div class="entry">
+      <div class="name">tableName</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/rules/plan/Plan.html" class="extype" name="net.sansa_stack.inference.spark.rules.plan.Plan">Plan</a> </div>
+    </div><div class="entry">
+      <div class="name">target</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/rules/plan/Plan.html" class="extype" name="net.sansa_stack.inference.spark.rules.plan.Plan">Plan</a> </div>
+    </div><div class="entry">
+      <div class="name">time</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/backwardchaining/BackwardChainingReasonerDataframe$.html" class="extype" name="net.sansa_stack.inference.spark.backwardchaining.BackwardChainingReasonerDataframe">BackwardChainingReasonerDataframe</a> <a href="../net/sansa_stack/inference/spark/backwardchaining/BackwardChainingReasonerDataset$.html" class="extype" name="net.sansa_stack.inference.spark.backwardchaining.BackwardChainingReasonerDataset">BackwardChainingReasonerDataset</a> </div>
+    </div><div class="entry">
+      <div class="name">toDataFrame</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/data/model/RDFGraph.html" class="extype" name="net.sansa_stack.inference.spark.data.model.RDFGraph">RDFGraph</a> <a href="../net/sansa_stack/inference/spark/data/model/RDFGraphDataFrame.html" class="extype" name="net.sansa_stack.inference.spark.data.model.RDFGraphDataFrame">RDFGraphDataFrame</a> <a href="../net/sansa_stack/inference/spark/data/model/RDFGraphDataset.html" class="extype" name="net.sansa_stack.inference.spark.data.model.RDFGraphDataset">RDFGraphDataset</a> <a href="../net/sansa_stack/inference/spark/data/model/RDFGraphNative.html" class="extype" name="net.sansa_stack.inference.spark.data.model.RDFGraphNative">RDFGraphNative</a> <a href="../net/sansa_stack/inference/spark/data/model/SparkGraphExtensions.html" class="extype" name="net.sansa_stack.inference.spark.data.model.SparkGraphExtensions">SparkGraphExtensions</a> </div>
+    </div><div class="entry">
+      <div class="name">toLogicalPlan</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/rules/plan/Plan.html" class="extype" name="net.sansa_stack.inference.spark.rules.plan.Plan">Plan</a> </div>
+    </div><div class="entry">
+      <div class="name">toMultimap</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/rules/Planner$.html" class="extype" name="net.sansa_stack.inference.spark.rules.Planner">Planner</a> </div>
+    </div><div class="entry">
+      <div class="name">toPairRDD</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/rules/plan/PlanExecutorNative.html" class="extype" name="net.sansa_stack.inference.spark.rules.plan.PlanExecutorNative">PlanExecutorNative</a> </div>
+    </div><div class="entry">
+      <div class="name">toRDD</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/data/model/RDFGraphDataFrame.html" class="extype" name="net.sansa_stack.inference.spark.data.model.RDFGraphDataFrame">RDFGraphDataFrame</a> <a href="../net/sansa_stack/inference/spark/data/model/RDFGraphDataset.html" class="extype" name="net.sansa_stack.inference.spark.data.model.RDFGraphDataset">RDFGraphDataset</a> <a href="../net/sansa_stack/inference/spark/data/model/RDFGraphNative.html" class="extype" name="net.sansa_stack.inference.spark.data.model.RDFGraphNative">RDFGraphNative</a> <a href="../net/sansa_stack/inference/spark/data/model/SparkGraphExtensions.html" class="extype" name="net.sansa_stack.inference.spark.data.model.SparkGraphExtensions">SparkGraphExtensions</a> </div>
+    </div><div class="entry">
+      <div class="name">toSQL</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/rules/plan/Plan.html" class="extype" name="net.sansa_stack.inference.spark.rules.plan.Plan">Plan</a> </div>
+    </div><div class="entry">
+      <div class="name">toString</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/backwardchaining/tree/AndOrTree.html" class="extype" name="net.sansa_stack.inference.spark.backwardchaining.tree.AndOrTree">AndOrTree</a> <a href="../net/sansa_stack/inference/spark/backwardchaining/tree/Node.html" class="extype" name="net.sansa_stack.inference.spark.backwardchaining.tree.Node">Node</a> <a href="../net/sansa_stack/inference/spark/forwardchaining/triples/ForwardRuleReasonerEL$Rule.html" class="extype" name="net.sansa_stack.inference.spark.forwardchaining.triples.ForwardRuleReasonerEL.Rule">Rule</a> <a href="../net/sansa_stack/inference/spark/rules/plan/Join.html" class="extype" name="net.sansa_stack.inference.spark.rules.plan.Join">Join</a> </div>
+    </div><div class="entry">
+      <div class="name">toTuple</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/rules/plan/PlanExecutorNative$EnrichedWithToTuple.html" class="extype" name="net.sansa_stack.inference.spark.rules.plan.PlanExecutorNative.EnrichedWithToTuple">EnrichedWithToTuple</a> </div>
+    </div><div class="entry">
+      <div class="name">toTuple1</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/rules/plan/PlanExecutorNative$EnrichedWithToTuple.html" class="extype" name="net.sansa_stack.inference.spark.rules.plan.PlanExecutorNative.EnrichedWithToTuple">EnrichedWithToTuple</a> </div>
+    </div><div class="entry">
+      <div class="name">toTuple10</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/rules/plan/PlanExecutorNative$EnrichedWithToTuple.html" class="extype" name="net.sansa_stack.inference.spark.rules.plan.PlanExecutorNative.EnrichedWithToTuple">EnrichedWithToTuple</a> </div>
+    </div><div class="entry">
+      <div class="name">toTuple2</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/rules/plan/PlanExecutorNative$EnrichedWithToTuple.html" class="extype" name="net.sansa_stack.inference.spark.rules.plan.PlanExecutorNative.EnrichedWithToTuple">EnrichedWithToTuple</a> </div>
+    </div><div class="entry">
+      <div class="name">toTuple3</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/rules/plan/PlanExecutorNative$EnrichedWithToTuple.html" class="extype" name="net.sansa_stack.inference.spark.rules.plan.PlanExecutorNative.EnrichedWithToTuple">EnrichedWithToTuple</a> </div>
+    </div><div class="entry">
+      <div class="name">toTuple4</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/rules/plan/PlanExecutorNative$EnrichedWithToTuple.html" class="extype" name="net.sansa_stack.inference.spark.rules.plan.PlanExecutorNative.EnrichedWithToTuple">EnrichedWithToTuple</a> </div>
+    </div><div class="entry">
+      <div class="name">toTuple5</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/rules/plan/PlanExecutorNative$EnrichedWithToTuple.html" class="extype" name="net.sansa_stack.inference.spark.rules.plan.PlanExecutorNative.EnrichedWithToTuple">EnrichedWithToTuple</a> </div>
+    </div><div class="entry">
+      <div class="name">toTuple6</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/rules/plan/PlanExecutorNative$EnrichedWithToTuple.html" class="extype" name="net.sansa_stack.inference.spark.rules.plan.PlanExecutorNative.EnrichedWithToTuple">EnrichedWithToTuple</a> </div>
+    </div><div class="entry">
+      <div class="name">toTuple7</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/rules/plan/PlanExecutorNative$EnrichedWithToTuple.html" class="extype" name="net.sansa_stack.inference.spark.rules.plan.PlanExecutorNative.EnrichedWithToTuple">EnrichedWithToTuple</a> </div>
+    </div><div class="entry">
+      <div class="name">toTuple8</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/rules/plan/PlanExecutorNative$EnrichedWithToTuple.html" class="extype" name="net.sansa_stack.inference.spark.rules.plan.PlanExecutorNative.EnrichedWithToTuple">EnrichedWithToTuple</a> </div>
+    </div><div class="entry">
+      <div class="name">toTuple9</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/rules/plan/PlanExecutorNative$EnrichedWithToTuple.html" class="extype" name="net.sansa_stack.inference.spark.rules.plan.PlanExecutorNative.EnrichedWithToTuple">EnrichedWithToTuple</a> </div>
+    </div><div class="entry">
+      <div class="name">tp1</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/rules/plan/Join.html" class="extype" name="net.sansa_stack.inference.spark.rules.plan.Join">Join</a> </div>
+    </div><div class="entry">
+      <div class="name">tp2</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/rules/plan/Join.html" class="extype" name="net.sansa_stack.inference.spark.rules.plan.Join">Join</a> </div>
+    </div><div class="entry">
+      <div class="name">tree</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/backwardchaining/package.html" class="extype" name="net.sansa_stack.inference.spark.backwardchaining">backwardchaining</a> </div>
+    </div><div class="entry">
+      <div class="name">triple</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/data/model/TripleUtils$RichTriple.html" class="extype" name="net.sansa_stack.inference.spark.data.model.TripleUtils.RichTriple">RichTriple</a> </div>
+    </div><div class="entry">
+      <div class="name">triplePatterns</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/rules/plan/Plan.html" class="extype" name="net.sansa_stack.inference.spark.rules.plan.Plan">Plan</a> </div>
+    </div><div class="entry">
+      <div class="name">triples</div>
+      <div class="occurrences"><a href="../net/sansa_stack/inference/spark/data/model/AbstractRDFGraphSpark.html" class="extype" name="net.sansa_stack.inference.spark.data.model.AbstractRDFGraphSpark">AbstractRDFGraphSpark</a> <a href="../net/sansa_stack/inference/spark/data/model/RDFGraph.html" class="extype" name="net.sansa_stack.inference.spark.data.model.RDFGraph">RDFGraph</a> <a href="../net/sansa_stack/inference/spark/data/model/RDFGraphDataFrame.html" class="extype" name="net.sansa_stack.inference.spark.data.model.RDFGraphDataFrame">RDFGraphDataFrame</a> <a href="../net/sansa_stack/inference/spark/data/model/RDFGraphDataset.html" class="extype" name="net.sansa_stack.inference.spark.data.model.RDFGraphDataset">RDFGraphDataset</a> <a href="../net/sansa_stack/inference/spark/data/model/RDFGraphNative.html" class="extype" name="net.sansa_stack.inference.spark.data.model.RDFGraphNative">RDFGraphNative</a> <a href="../net/sansa_stack/inference/spark/forwardchaining/package.html" class="extype" name="net.sansa_stack.inference.spark.forwardchaining">forwardchaining</a> </div>
+    </div></body>
+      </html>

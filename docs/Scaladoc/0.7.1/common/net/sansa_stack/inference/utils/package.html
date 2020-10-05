@@ -1,0 +1,416 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>utils - Inference API - Common 0.7.1 API - net.sansa_stack.inference.utils</title>
+          <meta name="description" content="utils - Inference API - Common 0.7.1 API - net.sansa stack.inference.utils" />
+          <meta name="keywords" content="utils Inference API Common 0.7.1 API net.sansa stack.inference.utils" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../index.html';
+            var hash = 'net.sansa_stack.inference.utils.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img alt="Package" src="../../../../lib/package_big.png" />
+        <p id="owner"><a href="../../../package.html" class="extype" name="net">net</a>.<a href="../../package.html" class="extype" name="net.sansa_stack">sansa_stack</a>.<a href="../package.html" class="extype" name="net.sansa_stack.inference">inference</a></p>
+        <h1>utils</h1><span class="permalink">
+      <a href="../../../../index.html#net.sansa_stack.inference.utils.package" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">utils</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="net.sansa_stack.inference.utils.JenaTripleToNTripleString" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="JenaTripleToNTripleStringextendsFunction[org.apache.jena.graph.Triple,String]withSerializable"></a>
+      <a id="JenaTripleToNTripleString:JenaTripleToNTripleString"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="JenaTripleToNTripleString.html"><span class="name">JenaTripleToNTripleString</span></a><span class="result"> extends <span class="extype" name="scala.Predef.Function">Function</span>[<span class="extype" name="org.apache.jena.graph.Triple">Triple</span>, <span class="extype" name="scala.Predef.String">String</span>] with <span class="extype" name="java.io.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#net.sansa_stack.inference.utils.package@JenaTripleToNTripleStringextendsFunction[org.apache.jena.graph.Triple,String]withSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Convert a Jena Triple to an N-Triples string.</p><div class="fullcomment"><div class="comment cmt"><p>Convert a Jena Triple to an N-Triples string.
+</p></div><dl class="attributes block"> <dt>Note</dt><dd><span class="cmt"><p>it turns out, that it might be more efficient to use the Jena stream based writer API per partition.</p></span></dd></dl></div>
+    </li><li name="net.sansa_stack.inference.utils.Logging" visbl="pub" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="LoggingextendsAnyRef"></a>
+      <a id="Logging:Logging"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Logging.html"><span class="name">Logging</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#net.sansa_stack.inference.utils.package@LoggingextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Utility trait for classes that want to log data.</p><div class="fullcomment"><div class="comment cmt"><p>Utility trait for classes that want to log data. Creates a SLF4J logger for the class and allows
+logging messages at different levels using methods that only evaluate parameters lazily if the
+log level is enabled.
+</p></div></div>
+    </li><li name="net.sansa_stack.inference.utils.NTriplesStringToJenaTriple" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="NTriplesStringToJenaTripleextendsFunction[String,org.apache.jena.graph.Triple]withSerializable"></a>
+      <a id="NTriplesStringToJenaTriple:NTriplesStringToJenaTriple"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="NTriplesStringToJenaTriple.html"><span class="name">NTriplesStringToJenaTriple</span></a><span class="result"> extends <span class="extype" name="scala.Predef.Function">Function</span>[<span class="extype" name="scala.Predef.String">String</span>, <span class="extype" name="org.apache.jena.graph.Triple">Triple</span>] with <span class="extype" name="java.io.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#net.sansa_stack.inference.utils.package@NTriplesStringToJenaTripleextendsFunction[String,org.apache.jena.graph.Triple]withSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Convert an N-Triples line to an RDFTriple object.</p>
+    </li><li name="net.sansa_stack.inference.utils.NTriplesStringToRDFTriple" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="NTriplesStringToRDFTripleextendsString=&gt;Option[net.sansa_stack.inference.data.RDFTriple]withSerializable"></a>
+      <a id="NTriplesStringToRDFTriple:NTriplesStringToRDFTriple"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="NTriplesStringToRDFTriple.html"><span class="name">NTriplesStringToRDFTriple</span></a><span class="result"> extends (<span class="extype" name="scala.Predef.String">String</span>) ⇒ <span class="extype" name="scala.Option">Option</span>[<a href="../data/RDFTriple.html" class="extype" name="net.sansa_stack.inference.data.RDFTriple">RDFTriple</a>] with <span class="extype" name="java.io.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#net.sansa_stack.inference.utils.package@NTriplesStringToRDFTripleextendsString=&gt;Option[net.sansa_stack.inference.data.RDFTriple]withSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Convert an N-Triples line to an RDFTriple object.</p>
+    </li><li name="net.sansa_stack.inference.utils.Profiler" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="ProfilerextendsLogging"></a>
+      <a id="Profiler:Profiler"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Profiler.html"><span class="name">Profiler</span></a><span class="result"> extends <a href="Logging.html" class="extype" name="net.sansa_stack.inference.utils.Logging">Logging</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#net.sansa_stack.inference.utils.package@ProfilerextendsLogging" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="net.sansa_stack.inference.utils.RDFTripleToNTripleString" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RDFTripleToNTripleStringextendsFunction[net.sansa_stack.inference.data.RDFTriple,String]withSerializable"></a>
+      <a id="RDFTripleToNTripleString:RDFTripleToNTripleString"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RDFTripleToNTripleString.html"><span class="name">RDFTripleToNTripleString</span></a><span class="result"> extends <span class="extype" name="scala.Predef.Function">Function</span>[<a href="../data/RDFTriple.html" class="extype" name="net.sansa_stack.inference.data.RDFTriple">RDFTriple</a>, <span class="extype" name="scala.Predef.String">String</span>] with <span class="extype" name="java.io.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#net.sansa_stack.inference.utils.package@RDFTripleToNTripleStringextendsFunction[net.sansa_stack.inference.data.RDFTriple,String]withSerializable" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Convert an RDFTriple object to an N-Triple string.</p>
+    </li><li name="net.sansa_stack.inference.utils.TriplePatternOrdering" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TriplePatternOrderingextendsOrdering[org.apache.jena.reasoner.TriplePattern]"></a>
+      <a id="TriplePatternOrdering:TriplePatternOrdering"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="TriplePatternOrdering.html"><span class="name">TriplePatternOrdering</span></a><span class="result"> extends <span class="extype" name="scala.Ordering">Ordering</span>[<span class="extype" name="org.apache.jena.reasoner.TriplePattern">TriplePattern</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#net.sansa_stack.inference.utils.package@TriplePatternOrderingextendsOrdering[org.apache.jena.reasoner.TriplePattern]" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Ordering for triple patterns.</p>
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="net.sansa_stack.inference.utils.CollectionUtils" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CollectionUtils"></a>
+      <a id="CollectionUtils:CollectionUtils"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="CollectionUtils$.html"><span class="name">CollectionUtils</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#net.sansa_stack.inference.utils.package@CollectionUtils" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Some utility methods for Scala collections.</p>
+    </li><li name="net.sansa_stack.inference.utils.EntailmentRegimes" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="EntailmentRegimes"></a>
+      <a id="EntailmentRegimes:EntailmentRegimes"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="EntailmentRegimes$.html"><span class="name">EntailmentRegimes</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#net.sansa_stack.inference.utils.package@EntailmentRegimes" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt"></p>
+    </li><li name="net.sansa_stack.inference.utils.GraphUtils" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="GraphUtils"></a>
+      <a id="GraphUtils:GraphUtils"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="GraphUtils$.html"><span class="name">GraphUtils</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#net.sansa_stack.inference.utils.package@GraphUtils" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt"></p>
+    </li><li name="net.sansa_stack.inference.utils.NodeTableBuilder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="NodeTableBuilder"></a>
+      <a id="NodeTableBuilder:NodeTableBuilder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="NodeTableBuilder$.html"><span class="name">NodeTableBuilder</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#net.sansa_stack.inference.utils.package@NodeTableBuilder" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt"></p>
+    </li><li name="net.sansa_stack.inference.utils.PredicateUtils" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PredicateUtils"></a>
+      <a id="PredicateUtils:PredicateUtils"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="PredicateUtils$.html"><span class="name">PredicateUtils</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#net.sansa_stack.inference.utils.package@PredicateUtils" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Some utils for logical combinations of boolean functions.</p>
+    </li><li name="net.sansa_stack.inference.utils.RDFTripleOrdering" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RDFTripleOrdering"></a>
+      <a id="RDFTripleOrdering:RDFTripleOrdering"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="RDFTripleOrdering$.html"><span class="name">RDFTripleOrdering</span></a><span class="result"> extends <span class="extype" name="scala.Ordering">Ordering</span>[<a href="../data/RDFTriple.html" class="extype" name="net.sansa_stack.inference.data.RDFTriple">RDFTriple</a>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#net.sansa_stack.inference.utils.package@RDFTripleOrdering" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Comparator for RDF triples.</p>
+    </li><li name="net.sansa_stack.inference.utils.RuleUtils" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RuleUtils"></a>
+      <a id="RuleUtils:RuleUtils"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="RuleUtils$.html"><span class="name">RuleUtils</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#net.sansa_stack.inference.utils.package@RuleUtils" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Utility class for rules.</p>
+    </li><li name="net.sansa_stack.inference.utils.Tabulator" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Tabulator"></a>
+      <a id="Tabulator:Tabulator"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Tabulator$.html"><span class="name">Tabulator</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#net.sansa_stack.inference.utils.package@Tabulator" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Utility to print table to console
+(taken from http://stackoverflow.com/questions/7539831/scala-draw-table-to-console)
+</p>
+    </li><li name="net.sansa_stack.inference.utils.TripleUtils" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TripleUtils"></a>
+      <a id="TripleUtils:TripleUtils"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="TripleUtils$.html"><span class="name">TripleUtils</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#net.sansa_stack.inference.utils.package@TripleUtils" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Utility class for triples.</p>
+    </li><li name="net.sansa_stack.inference.utils.Tuple0" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Tuple0"></a>
+      <a id="Tuple0:Tuple0"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Tuple0$.html"><span class="name">Tuple0</span></a><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#net.sansa_stack.inference.utils.package@Tuple0" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A 0-tuple.</p>
+    </li><li name="net.sansa_stack.inference.utils.graph" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="graph"></a>
+      <a id="graph:graph"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="graph/package.html"><span class="name">graph</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../index.html#net.sansa_stack.inference.utils.package@graph" title="Permalink" target="_top">
+        <img src="../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>

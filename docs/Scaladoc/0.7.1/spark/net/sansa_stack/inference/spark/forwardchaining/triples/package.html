@@ -1,0 +1,365 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>triples - Inference API - Spark 0.7.1 API - net.sansa_stack.inference.spark.forwardchaining.triples</title>
+          <meta name="description" content="triples - Inference API - Spark 0.7.1 API - net.sansa stack.inference.spark.forwardchaining.triples" />
+          <meta name="keywords" content="triples Inference API Spark 0.7.1 API net.sansa stack.inference.spark.forwardchaining.triples" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../../../../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../../../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../../../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../../../index.html';
+            var hash = 'net.sansa_stack.inference.spark.forwardchaining.triples.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img alt="Package" src="../../../../../../lib/package_big.png" />
+        <p id="owner"><a href="../../../../../package.html" class="extype" name="net">net</a>.<a href="../../../../package.html" class="extype" name="net.sansa_stack">sansa_stack</a>.<a href="../../../package.html" class="extype" name="net.sansa_stack.inference">inference</a>.<a href="../../package.html" class="extype" name="net.sansa_stack.inference.spark">spark</a>.<a href="../package.html" class="extype" name="net.sansa_stack.inference.spark.forwardchaining">forwardchaining</a></p>
+        <h1>triples</h1><span class="permalink">
+      <a href="../../../../../../index.html#net.sansa_stack.inference.spark.forwardchaining.triples.package" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">triples</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="net.sansa_stack.inference.spark.forwardchaining.triples.AbstractForwardRuleReasoner" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="AbstractForwardRuleReasoner[Rdf&lt;:net.sansa_stack.inference.data.RDF,D,G&lt;:net.sansa_stack.inference.spark.data.model.AbstractRDFGraphSpark[Rdf,D,G]]extendsLogging"></a>
+      <a id="AbstractForwardRuleReasoner[Rdf&lt;:RDF,D,G&lt;:AbstractRDFGraphSpark[Rdf,D,G]]:AbstractForwardRuleReasoner[Rdf,D,G]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">abstract </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="AbstractForwardRuleReasoner.html"><span class="name">AbstractForwardRuleReasoner</span></a><span class="tparams">[<span name="Rdf">Rdf &lt;: <span class="extype" name="net.sansa_stack.inference.data.RDF">RDF</span></span>, <span name="D">D</span>, <span name="G">G &lt;: <a href="../../data/model/AbstractRDFGraphSpark.html" class="extype" name="net.sansa_stack.inference.spark.data.model.AbstractRDFGraphSpark">AbstractRDFGraphSpark</a>[<span class="extype" name="net.sansa_stack.inference.spark.forwardchaining.triples.AbstractForwardRuleReasoner.Rdf">Rdf</span>, <span class="extype" name="net.sansa_stack.inference.spark.forwardchaining.triples.AbstractForwardRuleReasoner.D">D</span>, <span class="extype" name="net.sansa_stack.inference.spark.forwardchaining.triples.AbstractForwardRuleReasoner.G">G</span>]</span>]</span><span class="result"> extends <span class="extype" name="net.sansa_stack.inference.utils.Logging">Logging</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#net.sansa_stack.inference.spark.forwardchaining.triples.package@AbstractForwardRuleReasoner[Rdf&lt;:net.sansa_stack.inference.data.RDF,D,G&lt;:net.sansa_stack.inference.spark.data.model.AbstractRDFGraphSpark[Rdf,D,G]]extendsLogging" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A forward chaining based reasoner.</p>
+    </li><li name="net.sansa_stack.inference.spark.forwardchaining.triples.AbstractForwardRuleReasonerRDFS" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="AbstractForwardRuleReasonerRDFS[Rdf&lt;:net.sansa_stack.inference.data.RDF,D,G&lt;:net.sansa_stack.inference.spark.data.model.AbstractRDFGraphSpark[Rdf,D,G]]extendsTransitiveReasoner"></a>
+      <a id="AbstractForwardRuleReasonerRDFS[Rdf&lt;:RDF,D,G&lt;:AbstractRDFGraphSpark[Rdf,D,G]]:AbstractForwardRuleReasonerRDFS[Rdf,D,G]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">abstract </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="AbstractForwardRuleReasonerRDFS.html"><span class="name">AbstractForwardRuleReasonerRDFS</span></a><span class="tparams">[<span name="Rdf">Rdf &lt;: <span class="extype" name="net.sansa_stack.inference.data.RDF">RDF</span></span>, <span name="D">D</span>, <span name="G">G &lt;: <a href="../../data/model/AbstractRDFGraphSpark.html" class="extype" name="net.sansa_stack.inference.spark.data.model.AbstractRDFGraphSpark">AbstractRDFGraphSpark</a>[<span class="extype" name="net.sansa_stack.inference.spark.forwardchaining.triples.AbstractForwardRuleReasonerRDFS.Rdf">Rdf</span>, <span class="extype" name="net.sansa_stack.inference.spark.forwardchaining.triples.AbstractForwardRuleReasonerRDFS.D">D</span>, <span class="extype" name="net.sansa_stack.inference.spark.forwardchaining.triples.AbstractForwardRuleReasonerRDFS.G">G</span>]</span>]</span><span class="result"> extends <a href="TransitiveReasoner.html" class="extype" name="net.sansa_stack.inference.spark.forwardchaining.triples.TransitiveReasoner">TransitiveReasoner</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#net.sansa_stack.inference.spark.forwardchaining.triples.package@AbstractForwardRuleReasonerRDFS[Rdf&lt;:net.sansa_stack.inference.data.RDF,D,G&lt;:net.sansa_stack.inference.spark.data.model.AbstractRDFGraphSpark[Rdf,D,G]]extendsTransitiveReasoner" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A forward chaining implementation of the RDFS entailment regime.</p>
+    </li><li name="net.sansa_stack.inference.spark.forwardchaining.triples.FixpointIteration" visbl="pub" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="FixpointIteration[T]extendsLogging"></a>
+      <a id="FixpointIteration[T]:FixpointIteration[T]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="FixpointIteration.html"><span class="name">FixpointIteration</span></a><span class="tparams">[<span name="T">T</span>]</span><span class="result"> extends <span class="extype" name="net.sansa_stack.inference.utils.Logging">Logging</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#net.sansa_stack.inference.spark.forwardchaining.triples.package@FixpointIteration[T]extendsLogging" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Creates a new RDD by performing bulk iterations using the given step function.</p><div class="fullcomment"><div class="comment cmt"><p>Creates a new RDD by performing bulk iterations using the given step function. The first
+RDD the step function returns is the input for the next iteration, the second RDD is
+the termination criterion. The iterations terminate when either the termination criterion
+RDD contains no elements or when <code>maxIterations</code> iterations have been performed.
+</p></div></div>
+    </li><li name="net.sansa_stack.inference.spark.forwardchaining.triples.ForwardRuleReasoner" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="ForwardRuleReasonerextendsProfiler"></a>
+      <a id="ForwardRuleReasoner:ForwardRuleReasoner"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="ForwardRuleReasoner.html"><span class="name">ForwardRuleReasoner</span></a><span class="result"> extends <span class="extype" name="net.sansa_stack.inference.utils.Profiler">Profiler</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#net.sansa_stack.inference.spark.forwardchaining.triples.package@ForwardRuleReasonerextendsProfiler" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A forward chaining based reasoner.</p>
+    </li><li name="net.sansa_stack.inference.spark.forwardchaining.triples.ForwardRuleReasonerEL" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ForwardRuleReasonerELextendsTransitiveReasoner"></a>
+      <a id="ForwardRuleReasonerEL:ForwardRuleReasonerEL"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ForwardRuleReasonerEL.html"><span class="name">ForwardRuleReasonerEL</span></a><span class="result"> extends <a href="TransitiveReasoner.html" class="extype" name="net.sansa_stack.inference.spark.forwardchaining.triples.TransitiveReasoner">TransitiveReasoner</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#net.sansa_stack.inference.spark.forwardchaining.triples.package@ForwardRuleReasonerELextendsTransitiveReasoner" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">This rule-based forward chaining reasoner implementation is based on the
+paper</p><div class="fullcomment"><div class="comment cmt"><p>This rule-based forward chaining reasoner implementation is based on the
+paper</p><p>  'Pushing the EL envelope' by Baader, Brandt, Lutz. IJCAI. Vol. 5. 2005.</p><p>The paper does not cover the whole OWL 2 EL profile and makes some
+assumptions w.r.t. the allowed axioms. Given the set BC that contains</p><p>- owl:Thing
+- all concept names
+- all nominals { a } (with just one individual!)
+- concrete domain descriptions p(f1, ..., fk) (not used here)</p><p>The allowed general concept inclusions are the following (with C1, C2 \in BC,
+D \in BC \cup { owl:Nothin }):</p><p>-           C1 \sqsubseteq D
+- C1 \sqcap C2 \sqsubseteq D
+-           C1 \sqsubseteq \exists r.C2
+- \exists r.C1 \sqsubseteq D</p><p>Role inclusions may be of the form</p><p>-       r \sqsubseteq s , or
+- r1 o r2 \sqsubseteq s</p><p>We implemented the completion rules that were feasible in our setting.</p><p>Naming conventions:
+- C, C1, C2 --&gt; class names, or nominals (with just one individual),
+  or owl:Thing
+- D, D1, D2 --&gt; class names, or nominals (with just one individual),
+  owl:Thing, or owl:Nothing
+</p></div></div>
+    </li><li name="net.sansa_stack.inference.spark.forwardchaining.triples.ForwardRuleReasonerNaive" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ForwardRuleReasonerNaiveextendsAbstractForwardRuleReasoner[net.sansa_stack.inference.data.Jena,org.apache.spark.rdd.RDD[org.apache.jena.graph.Triple],net.sansa_stack.inference.spark.data.model.RDFGraphNative]"></a>
+      <a id="ForwardRuleReasonerNaive:ForwardRuleReasonerNaive"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ForwardRuleReasonerNaive.html"><span class="name">ForwardRuleReasonerNaive</span></a><span class="result"> extends <a href="AbstractForwardRuleReasoner.html" class="extype" name="net.sansa_stack.inference.spark.forwardchaining.triples.AbstractForwardRuleReasoner">AbstractForwardRuleReasoner</a>[<span class="extype" name="net.sansa_stack.inference.data.Jena">Jena</span>, <span class="extype" name="org.apache.spark.rdd.RDD">RDD</span>[<span class="extype" name="org.apache.jena.graph.Triple">Triple</span>], <a href="../../data/model/RDFGraphNative.html" class="extype" name="net.sansa_stack.inference.spark.data.model.RDFGraphNative">RDFGraphNative</a>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#net.sansa_stack.inference.spark.forwardchaining.triples.package@ForwardRuleReasonerNaiveextendsAbstractForwardRuleReasoner[net.sansa_stack.inference.data.Jena,org.apache.spark.rdd.RDD[org.apache.jena.graph.Triple],net.sansa_stack.inference.spark.data.model.RDFGraphNative]" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A naive implementation of the forward chaining based reasoner that does fix-point iteration, i.e.</p><div class="fullcomment"><div class="comment cmt"><p>A naive implementation of the forward chaining based reasoner that does fix-point iteration, i.e. it applies
+all rules in each iteration until no new data has been generated.
+.
+</p></div></div>
+    </li><li name="net.sansa_stack.inference.spark.forwardchaining.triples.ForwardRuleReasonerOWLHorst" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ForwardRuleReasonerOWLHorstextendsTransitiveReasoner"></a>
+      <a id="ForwardRuleReasonerOWLHorst:ForwardRuleReasonerOWLHorst"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ForwardRuleReasonerOWLHorst.html"><span class="name">ForwardRuleReasonerOWLHorst</span></a><span class="result"> extends <a href="TransitiveReasoner.html" class="extype" name="net.sansa_stack.inference.spark.forwardchaining.triples.TransitiveReasoner">TransitiveReasoner</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#net.sansa_stack.inference.spark.forwardchaining.triples.package@ForwardRuleReasonerOWLHorstextendsTransitiveReasoner" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A forward chaining implementation of the OWL Horst entailment regime.</p>
+    </li><li name="net.sansa_stack.inference.spark.forwardchaining.triples.ForwardRuleReasonerOptimized" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="ForwardRuleReasonerOptimized[Rdf&lt;:net.sansa_stack.inference.data.RDF,D,N&lt;:Rdf#Node,T&lt;:Rdf#Triple,G&lt;:net.sansa_stack.inference.spark.data.model.AbstractRDFGraphSpark[Rdf,D,G]]extendsAbstractForwardRuleReasoner[Rdf,D,G]"></a>
+      <a id="ForwardRuleReasonerOptimized[Rdf&lt;:RDF,D,N&lt;:triples.ForwardRuleReasonerOptimized.Rdf.Node,T&lt;:triples.ForwardRuleReasonerOptimized.Rdf.Triple,G&lt;:AbstractRDFGraphSpark[Rdf,D,G]]:ForwardRuleReasonerOptimized[Rdf,D,N,T,G]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">abstract </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ForwardRuleReasonerOptimized.html"><span class="name">ForwardRuleReasonerOptimized</span></a><span class="tparams">[<span name="Rdf">Rdf &lt;: <span class="extype" name="net.sansa_stack.inference.data.RDF">RDF</span></span>, <span name="D">D</span>, <span name="N">N &lt;: <span class="extype" name="net.sansa_stack.inference.data.RDF.Node">triples.ForwardRuleReasonerOptimized.Rdf.Node</span></span>, <span name="T">T &lt;: <span class="extype" name="net.sansa_stack.inference.data.RDF.Triple">triples.ForwardRuleReasonerOptimized.Rdf.Triple</span></span>, <span name="G">G &lt;: <a href="../../data/model/AbstractRDFGraphSpark.html" class="extype" name="net.sansa_stack.inference.spark.data.model.AbstractRDFGraphSpark">AbstractRDFGraphSpark</a>[<span class="extype" name="net.sansa_stack.inference.spark.forwardchaining.triples.ForwardRuleReasonerOptimized.Rdf">Rdf</span>, <span class="extype" name="net.sansa_stack.inference.spark.forwardchaining.triples.ForwardRuleReasonerOptimized.D">D</span>, <span class="extype" name="net.sansa_stack.inference.spark.forwardchaining.triples.ForwardRuleReasonerOptimized.G">G</span>]</span>]</span><span class="result"> extends <a href="AbstractForwardRuleReasoner.html" class="extype" name="net.sansa_stack.inference.spark.forwardchaining.triples.AbstractForwardRuleReasoner">AbstractForwardRuleReasoner</a>[<span class="extype" name="net.sansa_stack.inference.spark.forwardchaining.triples.ForwardRuleReasonerOptimized.Rdf">Rdf</span>, <span class="extype" name="net.sansa_stack.inference.spark.forwardchaining.triples.ForwardRuleReasonerOptimized.D">D</span>, <span class="extype" name="net.sansa_stack.inference.spark.forwardchaining.triples.ForwardRuleReasonerOptimized.G">G</span>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#net.sansa_stack.inference.spark.forwardchaining.triples.package@ForwardRuleReasonerOptimized[Rdf&lt;:net.sansa_stack.inference.data.RDF,D,N&lt;:Rdf#Node,T&lt;:Rdf#Triple,G&lt;:net.sansa_stack.inference.spark.data.model.AbstractRDFGraphSpark[Rdf,D,G]]extendsAbstractForwardRuleReasoner[Rdf,D,G]" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">An optimized implementation of the forward chaining based reasoner.</p>
+    </li><li name="net.sansa_stack.inference.spark.forwardchaining.triples.ForwardRuleReasonerOptimizedNative" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ForwardRuleReasonerOptimizedNativeextendsForwardRuleReasonerOptimized[net.sansa_stack.inference.data.Jena,org.apache.spark.rdd.RDD[org.apache.jena.graph.Triple],org.apache.jena.graph.Node,org.apache.jena.graph.Triple,net.sansa_stack.inference.spark.data.model.RDFGraphNative]"></a>
+      <a id="ForwardRuleReasonerOptimizedNative:ForwardRuleReasonerOptimizedNative"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ForwardRuleReasonerOptimizedNative.html"><span class="name">ForwardRuleReasonerOptimizedNative</span></a><span class="result"> extends <a href="ForwardRuleReasonerOptimized.html" class="extype" name="net.sansa_stack.inference.spark.forwardchaining.triples.ForwardRuleReasonerOptimized">ForwardRuleReasonerOptimized</a>[<span class="extype" name="net.sansa_stack.inference.data.Jena">Jena</span>, <span class="extype" name="org.apache.spark.rdd.RDD">RDD</span>[<span class="extype" name="org.apache.jena.graph.Triple">Triple</span>], <span class="extype" name="org.apache.jena.graph.Node">Node</span>, <span class="extype" name="org.apache.jena.graph.Triple">Triple</span>, <a href="../../data/model/RDFGraphNative.html" class="extype" name="net.sansa_stack.inference.spark.data.model.RDFGraphNative">RDFGraphNative</a>]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#net.sansa_stack.inference.spark.forwardchaining.triples.package@ForwardRuleReasonerOptimizedNativeextendsForwardRuleReasonerOptimized[net.sansa_stack.inference.data.Jena,org.apache.spark.rdd.RDD[org.apache.jena.graph.Triple],org.apache.jena.graph.Node,org.apache.jena.graph.Triple,net.sansa_stack.inference.spark.data.model.RDFGraphNative]" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">An optimized implementation of the forward chaining based reasoner using Spark data structures and operations.</p>
+    </li><li name="net.sansa_stack.inference.spark.forwardchaining.triples.ForwardRuleReasonerRDFS" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ForwardRuleReasonerRDFSextendsTransitiveReasoner"></a>
+      <a id="ForwardRuleReasonerRDFS:ForwardRuleReasonerRDFS"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ForwardRuleReasonerRDFS.html"><span class="name">ForwardRuleReasonerRDFS</span></a><span class="result"> extends <a href="TransitiveReasoner.html" class="extype" name="net.sansa_stack.inference.spark.forwardchaining.triples.TransitiveReasoner">TransitiveReasoner</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#net.sansa_stack.inference.spark.forwardchaining.triples.package@ForwardRuleReasonerRDFSextendsTransitiveReasoner" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A forward chaining implementation of the RDFS entailment regime.</p>
+    </li><li name="net.sansa_stack.inference.spark.forwardchaining.triples.ForwardRuleReasonerRDFSDataframe" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ForwardRuleReasonerRDFSDataframeextendsTransitiveReasoner"></a>
+      <a id="ForwardRuleReasonerRDFSDataframe:ForwardRuleReasonerRDFSDataframe"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ForwardRuleReasonerRDFSDataframe.html"><span class="name">ForwardRuleReasonerRDFSDataframe</span></a><span class="result"> extends <a href="TransitiveReasoner.html" class="extype" name="net.sansa_stack.inference.spark.forwardchaining.triples.TransitiveReasoner">TransitiveReasoner</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#net.sansa_stack.inference.spark.forwardchaining.triples.package@ForwardRuleReasonerRDFSDataframeextendsTransitiveReasoner" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">A forward chaining implementation of the RDFS entailment regime.</p>
+    </li><li name="net.sansa_stack.inference.spark.forwardchaining.triples.TransitiveReasoner" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TransitiveReasonerextendsForwardRuleReasoner"></a>
+      <a id="TransitiveReasoner:TransitiveReasoner"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="TransitiveReasoner.html"><span class="name">TransitiveReasoner</span></a><span class="result"> extends <a href="ForwardRuleReasoner.html" class="extype" name="net.sansa_stack.inference.spark.forwardchaining.triples.ForwardRuleReasoner">ForwardRuleReasoner</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#net.sansa_stack.inference.spark.forwardchaining.triples.package@TransitiveReasonerextendsForwardRuleReasoner" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">An engine to compute the transitive closure (TC) for a set of triples given in several datastructures.</p>
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="net.sansa_stack.inference.spark.forwardchaining.triples.FixpointIteration" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FixpointIteration"></a>
+      <a id="FixpointIteration:FixpointIteration"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="FixpointIteration$.html"><span class="name">FixpointIteration</span></a><span class="result"> extends <span class="extype" name="net.sansa_stack.inference.utils.Logging">Logging</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#net.sansa_stack.inference.spark.forwardchaining.triples.package@FixpointIteration" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="net.sansa_stack.inference.spark.forwardchaining.triples.ForwardRuleReasonerRDFSDataframe" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ForwardRuleReasonerRDFSDataframe"></a>
+      <a id="ForwardRuleReasonerRDFSDataframe:ForwardRuleReasonerRDFSDataframe"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ForwardRuleReasonerRDFSDataframe$.html"><span class="name">ForwardRuleReasonerRDFSDataframe</span></a>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../../index.html#net.sansa_stack.inference.spark.forwardchaining.triples.package@ForwardRuleReasonerRDFSDataframe" title="Permalink" target="_top">
+        <img src="../../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>
